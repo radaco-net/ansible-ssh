@@ -1,1 +1,27 @@
-ok
+This is to connect fresh new linux server to ansible over ssh connection
+
+1) first step is to connect from control machine to new server over simple ssh like this 
+do this from CONTROL ANSIBLE SERVER 
+for example :    ssh ubuntu@192.168.1.33
+then              type yes for accepting the public key 
+then              enter ubuntu or password
+
+2) now you are inside ubuntu machine you need to enable root ssh password authentication and also set password for rooot user
+
+sudo passwd root  # changing/ setting password for root
+
+sudo nano /etc/ssh/sshd_config
+
+edit line PermitRootLogin without-password 
+to 
+PermitRootLogin without-password yes 
+
+save file by control x
+
+3) sudo service ssh restart
+
+4) exit # to control server again
+
+now run my script beside this readme
+
+5) chmod 777 sshKey.sh
