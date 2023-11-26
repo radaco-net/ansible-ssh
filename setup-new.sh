@@ -1,5 +1,7 @@
 #!/bin/bash
-
+echo "Ansible ssh connection script"
+echo https://github.com/radaco-net/ansible-ssh
+echo Copy Right @ www.radaco.net
 # Ask for remote IP or URL
 read -p "Enter the remote IP or URL: " remote_ip
 
