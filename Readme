@@ -26,5 +26,5 @@ now run my script beside this readme
 
 5) chmod 777 setup-new.sh
 6) ./setup-new.sh 
-proceed with script
+now proceed with script with root user not any other and use the password you set in step 2
 
