@@ -24,4 +24,7 @@ save file by control x
 
 now run my script beside this readme
 
-5) chmod 777 sshKey.sh
+5) chmod 777 setup-new.sh
+6) ./setup-new.sh 
+proceed with script
+
